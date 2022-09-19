@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background: #222;
+}
+
+div#grid-container {
+    margin: 3px;
+    height: calc(100vh - 6px);
+    width: calc(100vw - 6px);
+    display: table;
+    background: #222;
+}
+
+div#grid-bg {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #000;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+}
+
+pre#grid {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-size: 8px;
+    font-family: 'Press Start 2P';
+    display: table-cell;
+    color: #FFF;
+    position: relative;
+    background: #000;
+    mix-blend-mode: lighten;
+}
