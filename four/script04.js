@@ -86,7 +86,7 @@ function generateColors() {
 
 function render(ticks = 0) {
     generate(ticks);
-    generateColors();
+    //generateColors();
     
     let content = '';
 
